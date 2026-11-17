@@ -1,6 +1,6 @@
 /* EtanCheck : service worker (mode hors-ligne). Changer VERSION à chaque nouvelle version de l'app. */
-const VERSION = 'etancheck-v3';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+const VERSION = 'etancheck-v4';
+const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png',/intro-etancheck.webm'];
 const EXTRA = [
   'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js'
