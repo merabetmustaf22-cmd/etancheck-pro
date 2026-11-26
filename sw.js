@@ -1,5 +1,5 @@
 /* EtanCheck : service worker (mode hors-ligne). Changer VERSION à chaque nouvelle version de l'app. */
-const VERSION = 'etancheck-v10';
+const VERSION = 'etancheck-v1.1';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png',/intro-etancheck.webm'];
 const EXTRA = [
   'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js',
